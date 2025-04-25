@@ -1,0 +1,1555 @@
+/************************************** Default color on all screens **************************************/
+
+.ixMainLayout,
+.ixMainLayoutDetail {	
+	background-color:		#A0BBCA;	
+}
+
+.ixMainHeaderLayout,
+.ixMainHeaderDetailLayout {
+	padding: 10px;
+}
+
+ 
+.ixMainHeaderTitle,
+.ixMainHeaderDetailTitle {
+	
+	color: #000000;
+	font-Size:14px;
+	font-weight: normal;
+	text-align: center;   
+}
+
+/***************Main Style that overrides the grid's header buttons and hear bar color ***********************/
+.ixGridHeaderBar {
+	background: #DDDDDD;
+}
+
+.ixGridHeaderButton,
+.ixGridHeaderButtonSelected,
+.ixGridHeaderButtonDisabled,
+.ixGridHeaderButtonSelectedDisabled,
+.ixGridHeaderButtonOver,
+.ixGridHeaderButtonDown,
+.ixGridHeaderButtonSelectedOver,
+.ixGridHeaderButtonSelectedDown {
+	font-family:Arial, Verdana, sans-serif;
+    font-size:14px;
+    font-weight: bold;
+    font-weight: normal;
+    color: #000000 !important;
+        
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-image: none;
+  	border-bottom: 1px solid #bfbfbf;
+  	border-left: 1px solid #fafafa;
+  	border-right: 1px solid #cccccc;
+    background: #DDDDDD !important;
+    
+}
+
+/***************************** Style to be used when displaying an info bar just below the header ***************/
+.ixInfoContainer
+{
+	background-color:	#EEEEEE;
+	border-style: 	none;
+  	border-radius: 	5px;
+    padding:		10px;
+  	border: 	    none;
+  	overflow: 		hidden;
+}
+
+.ixInfoContainer .formTitle,
+.ixInfoContainer .formCell,
+.ixInfoContainer .staticTextItem,
+.ixInfoContainer .ixFormTitleGrey {
+	font-size: 16px;
+}
+
+/*Style used for left/right padding for a sub-header or main action bar or when both are used in the same container*/
+.ixSubHeaderActionBarContainer {
+	padding: 		10px;
+	background: 		#D2E0E8;
+}
+
+
+/*****************************Main Action Bar Styles;  used just below the header or an info bar of a screen *********/
+.ixMainActionBar,
+.ixMainActionBarFocused,
+.ixMainActionBarDisabled,
+.ixMainActionBarError
+{	
+	background:			#5B7A8F;	
+	padding-right: 		12px;
+	padding-left: 		12px;	
+	padding-top: 		7px;
+	padding-bottom: 	7px;
+	border-radius: 		3px;
+	
+	/* background:		#D2E0E8;	
+	border-bottom: 		4px solid #D2E0E8;
+	border-top: 		4px solid #D2E0E8;	
+	*/
+}
+
+
+.ixMainActionBarContents,
+.ixMainActionBarContentsFocused,
+.ixMainActionBarContentsDisabled,
+.ixMainActionBarContentsError
+{
+	padding: 		0px;	
+	background:		#5B7A8F;	
+	
+}
+
+/* button style to be used when displayed on the  Main Action Bar*/
+.ixButtonMainActionBar,
+.ixButtonMainActionBarFocused,
+.ixButtonMainActionBarFocusedOver,
+.ixButtonMainActionBarFocusedDown,
+.ixButtonMainActionBarSelectedDisabled,
+.ixButtonMainActionBarOver,
+.ixButtonMainActionBarDown,
+.ixButtonMainActionBarSelected,
+.ixButtonMainActionBarSelectedDown,
+.ixButtonMainActionBarSelectedOver,
+.ixButtonMainActionBarSelectedFocused,
+.ixButtonMainActionBarSelectedFocusedDown,
+.ixButtonMainActionBarSelectedFocusedOver
+{	
+	font-family:Arial,Verdana, sans-serif; 	font-size:	14px;    font-weight: bold;
+	background:	#FFFFFF;
+	color:		#5B7A8F;
+    border: 1px solid #FFFFFF;
+  	border-radius: 	5px;
+  	padding : 4px;
+  	line-height: 1px; 
+  	text-align: center;
+	margin: 	0px;
+	cursor: 	pointer;
+}
+  	
+.ixButtonMainActionBarDisabled, 
+.ixButtonMainActionBarSelectedDisabled
+ {
+ 	font-family:Arial,Verdana, sans-serif; 	font-size:	14px;    font-weight: bold;
+	background:	#FFFFFF;
+	color:		#C8C8C8;
+    border: 1px solid #FFFFFF;
+  	border-radius: 	5px;
+  	padding : 4px;
+  	line-height: 1px; 
+  	text-align: center;
+	margin: 	0px;
+	cursor: 	default;
+}
+
+
+/******************************************* Detail Screen Styles*****************/
+
+
+/* Style used in a detail screen when a scroll bar is required just below its static area for example header/info bar and main action bar */
+.ixDetailContainer {	
+	overflow: auto;
+	background-color:       #D2E0E8;
+}
+
+/* the main container for a detail screen's components*/
+.ixDetailLayout {
+	background-color:	#D2E0E8;
+	border-radius: 		5px;
+	padding-bottom:		10px;
+	padding-left:		10px;
+	padding-right:		10px;	
+}
+
+/* container to style a detail screen's sections */
+.ixSmallDetailContainer
+{
+	background-color: #FFFFFF;
+    border-radius: 	5px;
+    border: 		2px solid #6D92A5
+}
+
+/*Action Bar container used in the small detail container*/
+.ixSmallDetailActionBar
+{	
+	background:			#6D92A5;	
+	padding-right: 		12px;
+	padding-left: 		12px;	
+	padding-top: 		10px;
+	padding-bottom: 	10px;
+}
+
+/* button style to be used when displayed on the Action Bar container used in a small detail container*/
+.ixButtonSmallDetailActionBar,
+.ixButtonSmallDetailActionBarFocused,
+.ixButtonSmallDetailActionBarFocusedOver,
+.ixButtonSmallDetailActionBarFocusedDown,
+.ixButtonSmallDetailActionBarSelectedDisabled,
+.ixButtonSmallDetailActionBarOver,
+.ixButtonSmallDetailActionBarDown,
+.ixButtonSmallDetailActionBarSelected,
+.ixButtonSmallDetailActionBarSelectedDown,
+.ixButtonSmallDetailActionBarSelectedOver,
+.ixButtonSmallDetailActionBarSelectedFocused,
+.ixButtonSmallDetailActionBarSelectedFocusedDown,
+.ixButtonSmallDetailActionBarSelectedFocusedOver
+{	
+	font-family:Arial,Verdana, sans-serif; 	font-size:	14px;    font-weight: bold;
+  	background:	#FFFFFF;
+  	border: 1px solid #FFFFFF;  
+  	border-radius: 5px;
+   	color: 		#5B7A8F;
+   	padding: 	4px;	
+	margin: 	0px;
+	text-align: center;	
+	cursor: 	pointer;
+  	line-height: 1px;
+}
+  	
+.ixButtonSmallDetailActionBarDisabled, 
+.ixButtonSmallDetailActionBarSelectedDisabled
+ {
+ 	font-family:Arial,Verdana, sans-serif; 	font-size:	14px;    font-weight: bold;
+  	background:	#FFFFFF;
+  	border: 1px solid #FFFFFF;  
+  	border-radius: 5px;
+   	color: 		#C8C8C8;
+   	padding: 	4px;	
+	margin: 	0px;
+	text-align: center;	
+	cursor: 	default;
+  	line-height: 1px;
+ 	 
+}
+
+
+/* container to style a small grid that is used in a detail screen */
+.ixDetailGridContainer {
+	horizontal-align: center;
+	background: #FFFFFF;
+}
+
+
+/* Action Bar used in a small grid that is used in a detail screen */
+.ixGridActionBar,
+.ixGridActionBarFocused,
+.ixGridActionBarDisabled,
+.ixGridActionBarError
+{	
+	background:		#6D92A5;
+	padding-right: 		12px;
+	padding-left: 		12px;	
+	padding-top: 		10px;
+	padding-bottom: 	10px;
+	
+	/* background:		#D2E0E8;	
+	border-top-left-radius:  5px;
+	border-top-right-radius:  5px;
+	border-bottom: 		4px solid #D2E0E8;
+	border-top: 		4px solid #D2E0E8;	
+	*/
+}
+
+.ixGridActionBarContents,
+.ixGridActionBarContentsFocused,
+.ixGridActionBarContentsDisabled,
+.ixGridActionBarContentsError
+{
+	padding: 		0px;	
+	background:		#6D92A5;
+}
+
+/* buttons style to be used with the ixGridActionBar */
+.ixButtonGridActionBar,
+.ixButtonGridActionBarFocused,
+.ixButtonGridActionBarFocusedOver,
+.ixButtonGridActionBarFocusedDown,
+.ixButtonGridActionBarSelectedDisabled,
+.ixButtonGridActionBarOver,
+.ixButtonGridActionBarDown,
+.ixButtonGridActionBarSelected,
+.ixButtonGridActionBarSelectedDown,
+.ixButtonGridActionBarSelectedOver,
+.ixButtonGridActionBarSelectedFocused,
+.ixButtonGridActionBarSelectedFocusedDown,
+.ixButtonGridActionBarSelectedFocusedOver
+{	
+	font-family:Arial,Verdana, sans-serif; 	font-size:	14px;    font-weight: bold;
+  	background:	#FFFFFF;
+  	border-top: 1px solid #FFFFFF;  
+  	border-bottom: 1px solid #FFFFFF;  
+  	border-left: 1px solid #FFFFFF;  
+  	border-right: 1px solid #FFFFFF;  
+    border-radius: 5px;
+   	color: 		#5B7A8F;
+   	padding: 	4px;	
+	margin: 	0px;
+	text-align: center;	
+	cursor: 	pointer;
+  	line-height: 1px; 
+}
+
+.ixButtonGridActionBarDisabled, 
+.ixButtonGridActionBarSelectedDisabled
+ {
+ 	font-family:Arial,Verdana, sans-serif; 	font-size:	14px;    font-weight: bold;
+  	background:	#6D92A5;
+	color: 			#C8C8C8;	
+   	cursor: 		default;
+   	background:		#FFFFFF;
+   	border: 1px solid #FFFFFF;  
+    border-radius: 5px;
+    padding: 	4px;	
+	margin: 	0px;
+	text-align: center;	
+  	
+}
+
+
+/******************************************* Detail Screen Styles*****************/
+
+
+
+/* --- toggleButtonContainer, leftToggleButton, middleToggleButton and rightToggleButton  for toggle button----- */
+
+.ixtoggleButtonContainer {
+       border:        2px  solid #5B7A8F;
+       background: transparent;
+       border-radius: 5px;
+}
+
+.ixLeftToggleButton,
+.ixLeftToggleButtonOver,
+.ixLeftToggleButtonDisabled
+{
+    font-family:  Arial,Verdana, sans-serif; font-size:16px; font-weight:    normal;
+    background:  #d2e0e8;     
+    border-right:  2px solid #5B7A8F;
+    color:  #5B7A8F;     
+    margin:  0px;
+    text-align: center;   
+    cursor: pointer;
+    padding: 5px;
+}
+
+.ixLeftToggleButtonDown,
+.ixLeftToggleButtonFocused,
+.ixLeftToggleButtonFocusedOver,
+.ixLeftToggleButtonFocusedDown,
+.ixLeftToggleButtonSelected,
+.ixLeftToggleButtonSelectedFocused,
+.ixLeftToggleButtonSelectedDown,
+.ixLeftToggleButtonSelectedFocusedDown,
+.ixLeftToggleButtonSelectedOver,
+.ixLeftToggleButtonSelectedFocusedOver,
+.ixLeftToggleButtonSelectedDisabled
+{
+    font-family: Arial,Verdana, sans-serif; font-size:16px; font-weight:    normal;
+    background: #5B7A8F;     
+    border-right: 2px solid #5B7A8F;
+    color: #ffffff;     
+    margin: 0px;
+    text-align: center;   
+    cursor: pointer;
+    padding: 5px;
+    
+}
+
+.ixRightToggleButton,
+.ixRightToggleButtonOver,
+.ixRightToggleButtonDisabled
+{
+    font-family: Arial,Verdana, sans-serif; font-size:16px; font-weight:    normal;
+    background: #d2e0e8;     
+    color: #5B7A8F;          
+    margin: 0px;
+    text-align: center;   
+    cursor: pointer;
+    padding: 5px;
+}
+
+.ixRightToggleButtonDown,
+.ixRightToggleButtonFocused,
+.ixRightToggleButtonFocusedOver,
+.ixRightToggleButtonFocusedDown,
+.ixRightToggleButtonSelected,
+.ixRightToggleButtonSelectedFocused,
+.ixRightToggleButtonSelectedDown,
+.ixRightToggleButtonSelectedFocusedDown,
+.ixRightToggleButtonSelectedOver,
+.ixRightToggleButtonSelectedFocusedOver,
+.ixRightToggleButtonSelectedDisabled
+{
+    font-family: Arial,Verdana, sans-serif; font-size:16px; font-weight:    normal;
+    background: #5B7A8F;     
+    color: #ffffff;     
+    margin: 0px;
+    text-align: center;   
+    cursor: pointer;
+    padding: 5px;
+}
+
+.ixMiddleToggleButton,
+.ixMiddleToggleButtonOver,
+.ixMiddleToggleButtonDisabled
+{
+   font-family: Arial,Verdana, sans-serif; font-size:16px; font-weight:    normal;
+    background: #d2e0e8; 
+    border-right:2px solid #5B7A8F;
+    color: #5B7A8F;     
+    margin: 0px;
+    text-align: center;   
+    cursor: pointer;
+    padding: 5px;
+}
+
+.ixMiddleToggleButtonDown,
+.ixMiddleToggleButtonFocused,
+.ixMiddleToggleButtonFocusedOver,
+.ixMiddleToggleButtonFocusedDown,
+.ixMiddleToggleButtonSelected,
+.ixMiddleToggleButtonSelectedFocused,
+.ixMiddleToggleButtonSelectedDown,
+.ixMiddleToggleButtonSelectedFocusedDown,
+.ixMiddleToggleButtonSelectedOver,
+.ixMiddleToggleButtonSelectedFocusedOver,
+.ixMiddleToggleButtonSelectedDisabled
+{
+   font-family: Arial,Verdana, sans-serif; font-size:16px; font-weight:    normal;
+    background: #5B7A8F;     
+    border-right: 2px solid #5B7A8F;
+    color: #ffffff;     
+    margin: 0px;
+    text-align: center;   
+    cursor: pointer;
+    padding: 5px;
+}
+
+.ixLeftToggleButtonDisabled,
+.ixMiddleToggleButtonDisabled,
+.ixRightToggleButtonDisabled {
+	color: #80808D;
+}
+
+.ixLeftToggleButtonSelectedDisabled,
+.ixRightToggleButtonSelectedDisabled,
+.ixMiddleToggleButtonSelectedDisabled {
+  	color: #C8C8C8;	
+}
+
+/**** Toggle button To be used with the Small Detail Action Bar ****/
+.ixToggleButtonContainer2 {
+       border:        2px  solid #5B7A8F;
+       background: transparent;
+       border-radius: 5px;
+}
+
+.ixLeftToggleButton2,
+.ixLeftToggleButton2Over,
+.ixLeftToggleButton2Disabled
+{
+    font-family:  Arial,Verdana, sans-serif; font-size:16px; font-weight:    normal;
+    background:  #FFFFFF;     
+    border-right:  2px solid #5B7A8F;
+    color:  #5B7A8F;     
+    margin:  0px;
+    text-align: center;   
+    cursor: pointer;
+    padding: 5px;
+    /*
+        background:  #d2e0e8;     
+    */
+}
+
+.ixLeftToggleButton2Down,
+.ixLeftToggleButton2Focused,
+.ixLeftToggleButton2FocusedOver,
+.ixLeftToggleButton2FocusedDown,
+.ixLeftToggleButton2Selected,
+.ixLeftToggleButton2SelectedFocused,
+.ixLeftToggleButton2SelectedDown,
+.ixLeftToggleButton2SelectedFocusedDown,
+.ixLeftToggleButton2SelectedOver,
+.ixLeftToggleButton2SelectedFocusedOver,
+.ixLeftToggleButton2SelectedDisabled
+{
+    font-family: Arial,Verdana, sans-serif; font-size:16px; font-weight:    normal;
+    background: #C3CDD5;     
+    border-right: 2px solid #5B7A8F;
+    color: #5B7A8F;     
+    margin: 0px;
+    text-align: center;   
+    cursor: pointer;
+    padding: 5px;
+    /*
+    background: #5B7A8F;     
+    color: #ffffff;     
+    */
+}
+
+.ixRightToggleButton2,
+.ixRightToggleButton2Over,
+.ixRightToggleButton2Disabled
+{
+    font-family: Arial,Verdana, sans-serif; font-size:16px; font-weight:    normal;
+    background: #FFFFFF;     
+    color: #5B7A8F;          
+    margin: 0px;
+    text-align: center;   
+    cursor: pointer;
+    padding: 5px;
+}
+
+.ixRightToggleButton2Down,
+.ixRightToggleButton2Focused,
+.ixRightToggleButton2FocusedOver,
+.ixRightToggleButton2FocusedDown,
+.ixRightToggleButton2Selected,
+.ixRightToggleButton2SelectedFocused,
+.ixRightToggleButton2SelectedDown,
+.ixRightToggleButton2SelectedFocusedDown,
+.ixRightToggleButton2SelectedOver,
+.ixRightToggleButton2SelectedFocusedOver,
+.ixRightToggleButton2SelectedDisabled
+{
+    font-family: Arial,Verdana, sans-serif; font-size:16px; font-weight:    normal;
+    background: #C3CDD5;     
+    color: #5B7A8F;     
+    margin: 0px;
+    text-align: center;   
+    cursor: pointer;
+    padding: 5px;
+
+}
+
+.ixMiddleToggleButton2,
+.ixMiddleToggleButton2Over,
+.ixMiddleToggleButton2Disabled
+{
+    font-family: Arial,Verdana, sans-serif; font-size:16px; font-weight:    normal;
+    background: #FFFFFF; 
+    border-right:2px solid #5B7A8F;
+    color: #5B7A8F;     
+    margin: 0px;
+    text-align: center;   
+    cursor: pointer;
+    padding: 5px;
+}
+
+.ixMiddleToggleButton2Down,
+.ixMiddleToggleButton2Focused,
+.ixMiddleToggleButton2FocusedOver,
+.ixMiddleToggleButton2FocusedDown,
+.ixMiddleToggleButton2Selected,
+.ixMiddleToggleButton2SelectedFocused,
+.ixMiddleToggleButton2SelectedDown,
+.ixMiddleToggleButton2SelectedFocusedDown,
+.ixMiddleToggleButton2SelectedOver,
+.ixMiddleToggleButton2SelectedFocusedOver,
+.ixMiddleToggleButton2SelectedDisabled
+{
+    font-family: Arial,Verdana, sans-serif; font-size:16px; font-weight:    normal;
+    background: #C3CDD5;     
+    border-right: 2px solid #5B7A8F;
+    color: #5B7A8F;     
+    margin: 0px;
+    text-align: center;   
+    cursor: pointer;
+    padding: 5px;
+}
+
+.ixLeftToggleButton2Disabled,
+.ixMiddleToggleButton2Disabled,
+.ixRightToggleButton2Disabled {
+	color: #80808D;
+}
+
+.ixLeftToggleButton2SelectedDisabled,
+.ixRightToggleButton2SelectedDisabled,
+.ixMiddleToggleButton2SelectedDisabled {
+  	color: #C8C8C8;	
+}
+
+
+/******************************************Buttons**********/
+
+/* teal button with white font color*/
+.ixButton1,
+.ixButton1Focused,
+.ixButton1FocusedOver,
+.ixButton1FocusedDown,
+.ixButton1SelectedDisabled,
+.ixButton1Over,
+.ixButton1Down,
+.ixButton1Selected,
+.ixButton1SelectedDown,
+.ixButton1SelectedOver,
+.ixButton1SelectedFocused,
+.ixButton1SelectedFocusedDown,
+.ixButton1SelectedFocusedOver
+{	
+	font-family:Arial,Verdana, sans-serif; 	font-size:	14px;    font-weight: bold;
+  	background:	#5B7A8F;
+  	border-top: 1px solid #5B7A8F;  
+  	border-bottom: 1px solid #5B7A8F;  
+  	border-left: 1px solid #5B7A8F;  
+  	border-right: 1px solid #5B7A8F;  
+    border-radius: 5px;
+   	color: 		#ffffff;
+   	padding: 	4px;	
+	margin: 	0px;
+	text-align: center;	
+	cursor: 	pointer;
+  	line-height: 1px; 
+}
+
+.ixButton1Disabled, 
+.ixButton1SelectedDisabled
+ {
+ 	font-family:Arial,Verdana, sans-serif; 	font-size:	14px;    font-weight: bold;
+  	background:	#5B7A8F;
+	color: 			#C8C8C8;	
+   	cursor: 		default;
+   	background:		#5B7A8F;
+   	border-top: 1px solid #5B7A8F;  
+  	border-bottom: 1px solid #5B7A8F;  
+  	border-left: 1px solid #5B7A8F;  
+  	border-right: 1px solid #5B7A8F;  
+    border-radius: 5px;
+    padding: 	4px;	
+	margin: 	0px;
+	text-align: center;	
+  	
+}
+
+/* white buttons with teal font color*/
+
+.ixButton2,
+.ixButton2Down,
+.ixButton2Disabled,
+.ixButton2Hover,
+.ixButton2Over,
+.ixButton2Focused,
+.ixButton2FocusedOver,
+.ixButton2Down,
+.ixButton2FocusedDown,
+.ixButton2Selected,
+.ixButton2SelectedFocused,
+.ixButton2SelectedDown,
+.ixButton2SelectedFocusedDown,
+.ixButton2SelectedOver {
+	font-family:Arial,Verdana, sans-serif; 	font-size:	14px;    font-weight: bold;
+	background:	#FFFFFF;
+	color:		#5B7A8F;
+    border-style: 	none;
+  	border-radius: 	5px;
+  	padding : 4px;
+  	line-height: 1px; 
+  	text-align: center;
+	margin: 	0px;
+	cursor: 	pointer;
+}
+.ixButton2Disabled {
+    border-style: 	none;
+	border-radius: 	5px;
+	background:	#FFFFFF;
+  	color: 			#C8C8C8;	
+  	cursor: 		default;
+}
+
+/* default yellow button*/
+.ixDefaultButton1,
+.ixDefaultButton1Disabled,
+.ixDefaultButton1SelectedDisabled {
+    font-family: Arial,Verdana, sans-serif; font-size:16px; font-weight:    normal;
+    background-color: #FFEC9B;   
+    border: 1px solid #5B7A8F;  
+    color: #000000; 
+    border-radius: 5px;   
+   	padding: 	4px;	
+	margin: 	0px;
+	text-align: center;	
+	cursor: 	pointer;
+	line-height: 	1px;
+	
+}
+
+
+/* default green button*/
+.ixDefaultButton2,
+.ixDefaultButton2Disabled,
+.ixDefaultButton2SelectedDisabled {
+	
+	font-family:Arial,Verdana,sans-serif; font-size:14px;	
+  	background-color:	#38761D;
+	color: 			#FFFFFF;
+  	border: 	1px solid #38761D;  
+    border-radius: 	5px;
+	padding: 	4px;	
+	margin: 	0px;
+	text-align: center;	
+	cursor: 	pointer;
+  	line-height: 	1px;
+}
+
+
+.ixDefaultButton1Disabled,
+.ixDefaultButton1SelectedDisabled,
+.ixDefaultButton2Disabled,
+.ixDefaultButton2SelectedDisabled {
+  	color: 			#C8C8C8;	
+  	cursor: 	default;
+}
+ 
+ /* edit button gold*/
+.ixButton3, 
+.ixButton3Down, 
+.ixButton3Disabled, 
+.ixActionButtonMustardHover, 
+.ixButton3Over, 
+.ixButton3Focused,
+.ixButton3FocusedOver,
+.ixButton3Down, 
+.ixButton3FocusedDown, 
+.ixButton3Selected, 
+.ixButton3SelectedFocused, 
+.ixButton3SelectedDown,
+.ixButton3SelectedFocusedDown, 
+.ixButton3SelectedOver, 
+.ixButton3SelectedFocusedOver, 
+.ixButton3Disabled, 
+.ixButton3SelectedDisabled {
+    
+    font-family:Arial,Verdana,sans-serif; font-size:14px;
+  	background-color:	#B99F55;
+  	border: 			1px solid #B99F55;
+  	border-radius: 		4px;
+  	color: 			#FFFFFF;
+  	line-height: 1px; 
+  	text-align: center;
+  	cursor: pointer;
+}
+.ixButton3Disabled,
+.ixButton3SelectedDisabled {
+  	color: 			#C8C8C8;	
+  	cursor: 	default;
+}
+ 
+ 
+/****************************************** Browse Styles ***********************************/
+.ixBrowseLayout {
+        background-color:  #A0BBCA;
+        padding:	10px;
+        border-radius: 	5px;
+}
+
+.ixFilterContainer {
+	
+	  	background-color: 	#D2E0E8;
+        border: 			3px solid #D2E0E8;
+        border-radius: 		5px;
+        padding: 			7px;
+}
+
+ 
+.ixSeparatorLineForFilter {
+	background-color:		#A0BBCA;	
+}
+
+.ixBrowseInfoContainer {
+        background-color:  #D2E0E8;
+        padding: 10px;
+        border-radius: 	5px;
+}
+
+
+.ixBrowseGridActionBar,
+.ixBrowseGridActionBarFocused,
+.ixBrowseGridActionBarDisabled,
+.ixBrowseGridActionBarError
+{	
+	background:			#D2E0E8;	
+	border-top-left-radius:  5px;
+	border-top-right-radius:  5px;
+	padding-right: 		12px;
+	padding-left: 		12px;	
+	padding-top: 		10px;
+	padding-bottom: 	10px;
+}
+.ixBrowseGridActionBarContents,
+.ixBrowseGridActionBarContentsFocused,
+.ixBrowseGridActionBarContentsDisabled,
+.ixBrowseGridActionBarContentsError
+{
+	padding: 		0px;	
+	background:		#D2E0E8;
+}
+
+/* Button to be used with the ixBrowseGridActionBar */
+.ixButtonBrowseGridActionBar,
+.ixButtonBrowseGridActionBarFocused,
+.ixButtonBrowseGridActionBarFocusedOver,
+.ixButtonBrowseGridActionBarFocusedDown,
+.ixButtonBrowseGridActionBarSelectedDisabled,
+.ixButtonBrowseGridActionBarOver,
+.ixButtonBrowseGridActionBarDown,
+.ixButtonBrowseGridActionBarSelected,
+.ixButtonBrowseGridActionBarSelectedDown,
+.ixButtonBrowseGridActionBarSelectedOver,
+.ixButtonBrowseGridActionBarSelectedFocused,
+.ixButtonBrowseGridActionBarSelectedFocusedDown,
+.ixButtonBrowseGridActionBarSelectedFocusedOver
+{	
+	font-family:Arial,Verdana, sans-serif; 	font-size:	14px;    font-weight: bold;
+  	background:	#5B7A8F;
+  	border-top: 1px solid #5B7A8F;  
+  	border-bottom: 1px solid #5B7A8F;  
+  	border-left: 1px solid #5B7A8F;  
+  	border-right: 1px solid #5B7A8F;  
+    border-radius: 5px;
+   	color: 		#ffffff;
+   	padding: 	4px;	
+	margin: 	0px;
+	text-align: center;	
+	cursor: 	pointer;
+  	line-height: 1px; 
+}
+
+.ixButtonBrowseGridActionBarDisabled, 
+.ixButtonBrowseGridActionBarSelectedDisabled
+ {
+ 	font-family:Arial,Verdana, sans-serif; 	font-size:	14px;    font-weight: bold;
+  	background:	#5B7A8F;
+	color: 			#C8C8C8;	
+   	cursor: 		default;
+   	background:		#5B7A8F;
+   	border-top: 1px solid #5B7A8F;  
+  	border-bottom: 1px solid #5B7A8F;  
+  	border-left: 1px solid #5B7A8F;  
+  	border-right: 1px solid #5B7A8F;  
+    border-radius: 5px;
+    padding: 	4px;	
+	margin: 	0px;
+	text-align: center;	
+  	
+}
+/* Button to be used with the ixBrowseGridActionBar */
+
+.ixBrowseGridLayout {
+        background: #D2E0E8;
+        border-radius: 5px;
+        padding: 10px;
+}
+
+.ixBrowseGridContainer  {
+	horizontal-align: center;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #D2E0E8;
+}
+/* Browse Styles */
+
+
+/* menu styles */
+
+/*****************MenuLight, MenuDark styles ***********************/
+
+.invPopupMenuLight {
+  border: 2px solid #D2E0E8;
+}
+
+.invPopupMenuLight .menuBorder {
+  border: 2px solid #D2E0E8;
+}
+
+.invPopupMenuLight .menu,
+.invPopupMenuLight .menuSelected, 
+.invPopupMenuLight .menuDisabled {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: none;
+	border-color: #ffffff;
+	background-color: #ffffff;
+}
+
+.invPopupMenuLight .menuDisabled,
+.invPopupMenuLight .menuTitleFieldDisabled {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #cccccc;
+	background: none;
+	border-color: #ffffff;	
+	
+}
+
+.invPopupMenuLight .menuOver, 
+.invPopupMenuLight .menuSelectedOver, 
+.invPopupMenuLight .menuTitleFieldOver {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	background: none;
+	background-color: #fff2c5;
+	border-color: #fff2c5;
+}
+
+.invPopupMenuLight .menuTitleField, 
+.invPopupMenuLight .menuTitleFieldDark, 
+.invPopupMenuLight .menuTitleFieldSelected,
+.invPopupMenuLight .menuTitleFieldSelectedDark, 
+.invPopupMenuLight .menuTitleFieldSelectedOver,
+.invPopupMenuLight .menuTitleFieldSelectedOverDark {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000000;
+	background: none;
+	border-color: #ffffff;
+	background-color: #ffffff;
+}
+
+.invPopupMenuLight .menuIconField,
+.invPopupMenuLight .menuIconFieldOver,
+.invPopupMenuLight .menuIconFieldOverDark,
+.invPopupMenuLight .menuIconFieldSelectedOver,
+.invPopupMenuLight .menuIconFieldSelectedOverDark,
+.invPopupMenuLight .menuIconFieldDisabled {	
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+  	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	background: none;
+	border-color: #D2E0E8;
+	background-color: #D2E0E8;
+} 
+
+
+.invPopupMenuMedium {
+	border: 2px solid #A0BBCA; 	
+}
+.invPopupMenuMedium .menuBorder {
+  border: 2px solid #A0BBCA;
+}
+
+.invPopupMenuMedium .menu,
+.invPopupMenuMedium .menuSelected {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: none;
+	border-color: #ffffff;
+	background-color: #ffffff;
+}
+
+.invPopupMenuMedium .menuDisabled,
+.invPopupMenuMedium .menuTitleFieldDisabled {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #cccccc;
+	background: none;
+	border-color: #ffffff;
+}
+
+.invPopupMenuMedium .menuOver, 
+.invPopupMenuMedium .menuSelectedOver, 
+.invPopupMenuMedium .menuTitleFieldOver {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	background: none;
+	background-color: #fff2c5;
+	border-color: #fff2c5;
+}
+
+.invPopupMenuMedium .menuTitleField, 
+.invPopupMenuMedium .menuTitleFieldDark, 
+.invPopupMenuMedium .menuTitleFieldSelected,
+.invPopupMenuMedium .menuTitleFieldSelectedDark, 
+.invPopupMenuMedium .menuTitleFieldSelectedOver,
+.invPopupMenuMedium .menuTitleFieldSelectedOverDark {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000000;
+	background: none;
+	border-color: #ffffff;
+	background-color: #ffffff;
+}
+
+.invPopupMenuMedium .menuIconField,
+.invPopupMenuMedium .menuIconFieldOver,
+.invPopupMenuMedium .menuIconFieldOverDark,
+.invPopupMenuMedium .menuIconFieldSelectedOver,
+.invPopupMenuMedium .menuIconFieldSelectedOverDark,
+.invPopupMenuMedium .menuIconFieldDisabled {	
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+  	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	background: none;
+	border-color: #A0BBCA;
+	background-color: #A0BBCA;
+}
+
+
+.invPopupMenuDark {
+  border: 2px solid #6D92A5;
+}
+
+.invPopupMenuDark .menuBorder {
+  border: 2px solid #6D92A5;
+}
+
+.invPopupMenuDark .menu,
+.invPopupMenuDark .menuSelected, 
+.invPopupMenuDark .menuDisabled {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: none;
+	border-color: #ffffff;
+	background-color: #ffffff;
+}
+
+.invPopupMenuDark .menuDisabled,
+.invPopupMenuDark .menuTitleFieldDisabled {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #cccccc;
+	background: none;
+	border-color: #ffffff;	
+	
+}
+
+.invPopupMenuDark .menuOver, 
+.invPopupMenuDark .menuSelectedOver, 
+.invPopupMenuDark .menuTitleFieldOver {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	background: none;
+	background-color: #fff2c5;
+	border-color: #fff2c5;
+}
+
+.invPopupMenuDark .menuTitleField, 
+.invPopupMenuDark .menuTitleFieldDark, 
+.invPopupMenuDark .menuTitleFieldSelected,
+.invPopupMenuDark .menuTitleFieldSelectedDark, 
+.invPopupMenuDark .menuTitleFieldSelectedOver,
+.invPopupMenuDark .menuTitleFieldSelectedOverDark {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000000;
+	background: none;
+	border-color: #ffffff;
+	background-color: #ffffff;
+}
+
+.invPopupMenuDark .menuIconField,
+.invPopupMenuDark .menuIconFieldOver,
+.invPopupMenuDark .menuIconFieldOverDark,
+.invPopupMenuDark .menuIconFieldSelectedOver,
+.invPopupMenuDark .menuIconFieldSelectedOverDark,
+.invPopupMenuDark .menuIconFieldDisabled {	
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+  	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	background: none;
+	border-color: #6D92A5;
+	background-color: #6D92A5;
+}
+
+.invPopupMenuVeryDark  {
+  border: 2px solid #5B7A8F;
+}
+
+.invPopupMenuVeryDark .menuBorder {
+  border: 2px solid #5B7A8F;
+}
+
+.invPopupMenuVeryDark .menu,
+.invPopupMenuVeryDark .menuSelected, 
+.invPopupMenuVeryDark .menuDisabled {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: none;
+	border-color: #ffffff;
+	background-color: #ffffff;
+}
+
+.invPopupMenuVeryDark .menuDisabled,
+.invPopupMenuVeryDark .menuTitleFieldDisabled {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #cccccc;
+	background: none;
+	border-color: #ffffff;	
+	
+}
+
+.invPopupMenuVeryDark .menuOver, 
+.invPopupMenuVeryDark .menuSelectedOver, 
+.invPopupMenuVeryDark .menuTitleFieldOver {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	background: none;
+	background-color: #fff2c5;
+	border-color: #fff2c5;
+}
+
+.invPopupMenuVeryDark .menuTitleField, 
+.invPopupMenuVeryDark .menuTitleFieldVeryDark, 
+.invPopupMenuVeryDark .menuTitleFieldSelected,
+.invPopupMenuVeryDark .menuTitleFieldSelectedVeryDark, 
+.invPopupMenuVeryDark .menuTitleFieldSelectedOver,
+.invPopupMenuVeryDark .menuTitleFieldSelectedOverVeryDark {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000000;
+	background: none;
+	border-color: #ffffff;
+	background-color: #ffffff;
+}
+
+.invPopupMenuVeryDark .menuIconField,
+.invPopupMenuVeryDark .menuIconFieldOver,
+.invPopupMenuVeryDark .menuIconFieldOverVeryDark,
+.invPopupMenuVeryDark .menuIconFieldSelectedOver,
+.invPopupMenuVeryDark .menuIconFieldSelectedOverVeryDark,
+.invPopupMenuVeryDark .menuIconFieldDisabled {	
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+  	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	background: none;
+	border-color: #5B7A8F;
+	background-color: #5B7A8F;
+}
+
+
+/* menu styles */
+
+/*********************Popup Windows *****************************************/
+.centerWindow {
+ background-color: transparent;
+ padding-top:    0px;
+ padding-left:    0px;
+ padding-right:   0px;
+ padding-bottom:   0px;
+ border-radius:   0px;
+ -moz-border-radius:  0px;
+ -webkit-border-radius: 0px;
+ margin:     0px;
+ 
+  /*
+ The box-shadow is equivalent to:
+        window.setShadowSoftness(20);
+        window.setShadowOffset(0);
+        window.setShadowSpread(3);
+        window.setShadowColor("#383838");
+ */
+ 
+box-shadow: 0px 0px 20px 3px #383838 !important;
+
+}
+
+.ixPopupLayout {
+	background-color: #A0BBCA;	
+	padding: 10px;
+}
+
+.ixPopupHeader {
+	background-color: #A0BBCA;
+	padding-bottom: 10px;
+}
+.ixPopupHeaderTitle {
+	font-family:Arial,Verdana,sans-serif;
+    font-size:16px;
+    color:black;
+    font-weight: bold;
+}
+
+.ixButtonPopupHeader,
+.ixButtonPopupHeaderFocused,
+.ixButtonPopupHeaderFocusedOver,
+.ixButtonPopupHeaderFocusedDown,
+.ixButtonPopupHeaderSelectedDisabled,
+.ixButtonPopupHeaderOver,
+.ixButtonPopupHeaderDown,
+.ixButtonPopupHeaderSelected,
+.ixButtonPopupHeaderSelectedDown,
+.ixButtonPopupHeaderSelectedOver,
+.ixButtonPopupHeaderSelectedFocused,
+.ixButtonPopupHeaderSelectedFocusedDown,
+.ixButtonPopupHeaderSelectedFocusedOver
+{	
+	font-family:Arial,Verdana, sans-serif; 	font-size:	14px;    font-weight: bold;
+  	background:	#5B7A8F;
+  	border-top: 1px solid #5B7A8F;  
+  	border-bottom: 1px solid #5B7A8F;  
+  	border-left: 1px solid #5B7A8F;  
+  	border-right: 1px solid #5B7A8F;  
+    border-radius: 5px;
+   	color: 		#ffffff;
+   	padding: 	4px;	
+	margin: 	0px;
+	text-align: center;	
+	cursor: 	pointer;
+  	line-height: 1px; 
+}
+
+.ixButtonPopupHeaderDisabled, 
+.ixButtonPopupHeaderSelectedDisabled
+ {
+ 	font-family:Arial,Verdana, sans-serif; 	font-size:	14px;    font-weight: bold;
+  	background:	#5B7A8F;
+	color: 			#C8C8C8;	
+   	cursor: 		default;
+   	background:		#5B7A8F;
+   	border-top: 1px solid #5B7A8F;  
+  	border-bottom: 1px solid #5B7A8F;  
+  	border-left: 1px solid #5B7A8F;  
+  	border-right: 1px solid #5B7A8F;  
+    border-radius: 5px;
+    padding: 	4px;	
+	margin: 	0px;
+	text-align: center;	
+  	
+}
+
+.ixPopupContainer {	
+	background: #D2E0E8;	
+	border-radius: 5px;
+	padding:	10px;
+}
+
+.ixPopupFooter {
+	padding-left:  10px;
+    padding-right: 10px;	
+}
+
+
+.ixButtonPopup,
+.ixButtonPopupFocused,
+.ixButtonPopupFocusedOver,
+.ixButtonPopupFocusedDown,
+.ixButtonPopupSelectedDisabled,
+.ixButtonPopupOver,
+.ixButtonPopupDown,
+.ixButtonPopupSelected,
+.ixButtonPopupSelectedDown,
+.ixButtonPopupSelectedOver,
+.ixButtonPopupSelectedFocused,
+.ixButtonPopupSelectedFocusedDown,
+.ixButtonPopupSelectedFocusedOver
+{	
+	font-family:Arial,Verdana, sans-serif; 	font-size:	14px;    font-weight: bold;
+  	background:	#5B7A8F;
+  	border-top: 1px solid #5B7A8F;  
+  	border-bottom: 1px solid #5B7A8F;  
+  	border-left: 1px solid #5B7A8F;  
+  	border-right: 1px solid #5B7A8F;  
+    border-radius: 5px;
+   	color: 		#ffffff;
+   	padding: 	4px;	
+	margin: 	0px;
+	text-align: center;	
+	cursor: 	pointer;
+  	line-height: 1px; 
+}
+
+.ixButtonPopupDisabled, 
+.ixButtonPopupSelectedDisabled
+ {
+ 	font-family:Arial,Verdana, sans-serif; 	font-size:	14px;    font-weight: bold;
+  	background:	#5B7A8F;
+	color: 			#C8C8C8;	
+   	cursor: 		default;
+   	background:		#5B7A8F;
+   	border-top: 1px solid #5B7A8F;  
+  	border-bottom: 1px solid #5B7A8F;  
+  	border-left: 1px solid #5B7A8F;  
+  	border-right: 1px solid #5B7A8F;  
+    border-radius: 5px;
+    padding: 	4px;	
+	margin: 	0px;
+	text-align: center;	
+  	
+}
+/******************************Misc Styles **********************************/
+
+
+.ixDecoratorContainer {
+	background: #5B7A8F;
+	border-radius: 5px;
+}
+
+.ixSmallDetailContainerLabel {
+	font-family:Arial,Verdana,sans-serif; font-size:14px;
+ 	color: #FFFFFF; 
+}
+
+.ixSmallDetailContainerLabelBold {
+	font-family:Arial,Verdana,sans-serif; font-size:14px;
+ 	color: #FFFFFF; 
+ 	font-weight: bold;
+}
+
+.ixGreyLabel {
+	font-family:Arial,Verdana,sans-serif; font-size:14px;
+ 	color: #999999;
+ 	/* 	
+ 	color: #80808D;  */
+}
+
+.ixGreyLabelBold {
+	font-family:Arial,Verdana,sans-serif; font-size:14px;
+ 	color: #999999; 
+ 	font-weight: bold;
+ 	/* 	
+ 	color: #80808D;  */
+}
+
+.ixBoldLabelBig {
+	font-weight: bold;
+	font-size: 24px;	
+}
+
+.ixFormTitleGrey {
+	font-family: Arial,Verdana,sans-serif; 
+	font-size: 14px;
+ 	color: #999999; 
+}
+
+
+
+/************************** Tab Sets *********************************/
+/************Styles for ToggleButton look as tab**************/
+.ixTabToggleButtonContainer {
+       background: transparent;      
+}
+
+.ixLeftTabToggleButton,
+.ixLeftTabToggleButtonOver,
+.ixLeftTabToggleButtonDisabled,
+.ixMiddleTabToggleButton,
+.ixMiddleTabToggleButtonOver,
+.ixMiddleTabToggleButtonDisabled,
+.ixRightTabToggleButton,
+.ixRightTabToggleButtonOver,
+.ixRightTabToggleButtonDisabled
+{
+    font-family:  Arial,Verdana, sans-serif; font-size:16px; font-weight:    normal;  
+    background:  #5B7A8F;  
+    color:  #FFFFFF;     
+    margin:  0px;
+    text-align: center;   
+    cursor: pointer;
+    padding: 5px;
+	border-right: 1px solid #FFFFFF;
+	border-top: 1px solid #5B7A8F;
+	border-left: 1px solid #5B7A8F;
+	border-bottom: 2px solid #5B7A8F;
+}
+
+.ixLeftTabToggleButtonDown,
+.ixLeftTabToggleButtonFocused,
+.ixLeftTabToggleButtonFocusedOver,
+.ixLeftTabToggleButtonFocusedDown,
+.ixLeftTabToggleButtonSelected,
+.ixLeftTabToggleButtonSelectedFocused,
+.ixLeftTabToggleButtonSelectedDown,
+.ixLeftTabToggleButtonSelectedFocusedDown,
+.ixLeftTabToggleButtonSelectedOver,
+.ixLeftTabToggleButtonSelectedFocusedOver,
+.ixLeftTabToggleButtonSelectedDisabled,
+.ixMiddleTabToggleButtonDown,
+.ixMiddleTabToggleButtonFocused,
+.ixMiddleTabToggleButtonFocusedOver,
+.ixMiddleTabToggleButtonFocusedDown,
+.ixMiddleTabToggleButtonSelected,
+.ixMiddleTabToggleButtonSelectedFocused,
+.ixMiddleTabToggleButtonSelectedDown,
+.ixMiddleTabToggleButtonSelectedFocusedDown,
+.ixMiddleTabToggleButtonSelectedOver,
+.ixMiddleTabToggleButtonSelectedFocusedOver,
+.ixMiddleTabToggleButtonSelectedDisabled,
+.ixRightTabToggleButtonDown,
+.ixRightTabToggleButtonFocused,
+.ixRightTabToggleButtonFocusedOver,
+.ixRightTabToggleButtonFocusedDown,
+.ixRightTabToggleButtonSelected,
+.ixRightTabToggleButtonSelectedFocused,
+.ixRightTabToggleButtonSelectedDown,
+.ixRightTabToggleButtonSelectedFocusedDown,
+.ixRightTabToggleButtonSelectedOver,
+.ixRightTabToggleButtonSelectedFocusedOver,
+.ixRightTabToggleButtonSelectedDisabled
+{
+    font-family: Arial,Verdana, sans-serif; font-size:16px; font-weight:    normal;
+    background: #5B7A8F;  
+    color: #fff2c6; 
+    font-weight:bold;    
+    margin: 0px;
+    text-align: center;   
+    cursor: pointer;
+    padding: 5px; 
+    border-right: 1px solid #FFFFFF;
+	border-top: 1px solid #5B7A8F;
+	border-left: 1px solid #5B7A8F;   
+	border-bottom: 2px solid #fff2c6
+	
+}
+
+.ixLeftTabToggleButtonDisabled,
+.ixMiddleTabToggleButtonDisabled,
+.ixRightTabToggleButtonDisabled,
+.ixLeftTabToggleButtonSelectedDisabled,
+.ixRightTabToggleButtonSelectedDisabled,
+.ixMiddleTabToggleButtonSelectedDisabled {
+	background-color:  #D6D6D6 !important;    
+    color: #ffffff; 
+    border-right: 1px solid #FFFFFF;
+	border-top: 1px solid #D6D6D6;
+	border-left: 1px solid #D6D6D6;   
+    border-bottom: 2px solid #5B7A8F; 
+}
+
+
+/************Styles for ToggleButton look as tab (light teal) **************/
+
+/********************overide the tabset look ************************/
+
+/*
+   border and padding for tab pane.
+*/
+.tabSetContainer {
+ /* background-color: transparent;
+    border: 3px solid #D2E0E8;*/
+    
+  background-color: #5B7A8F;  
+  border-radius: 0px 0px 0px 0px;
+  color: #d6d6d6;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 11px;
+}
+  
+.tabButtonTop,
+.tabButtonTopOver,
+.tabButtonTopSelectedDisabled,
+.tabButtonTopDisabled,
+.tabButtonTopDown,
+.tabButtonTopDownOver,
+.tabButtonTopSelected,
+.tabButtonTopSelectedOver,
+.tabButtonTopSelectedDown,
+.tabButtonTopSelectedFocused,
+.tabButtonTopSelectedFocusedOver,
+.tabButtonTopSelectedFocusedDown,
+.tabButtonTopFocused,
+.tabButtonTopFocusedOver,
+.tabButtonTopFocusedDown {  
+  font-family:Arial,Verdana,sans-serif;
+  font-size: 14px;
+  font-weight:bold;
+  -moz-border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px 0px 0px 0px;
+  padding: 0px 27px;
+  text-decoration: none;
+  background-image: none !important;
+  border-top: 1px solid #5B7A8F; 
+  border-left: 1px solid #5B7A8F;
+  border-right: 1px solid #FFFFFF;  
+  border-bottom: 2px solid #5B7A8F;
+  
+}
+ 
+ /* Unselected tabs state*/
+.tabButtonTop
+ {
+  background-color : #5B7A8F;
+  color: #FFFFFF !important; 
+  border-top: 1px solid #5B7A8F; 
+  border-left: 1px solid #5B7A8F;
+  border-right: 1px solid #FFFFFF;  
+  border-bottom: 2px solid #5B7A8F;
+}               
+
+.tabButtonTopOver {
+  background-color : #5B7A8F;
+  color: #FFFFFF !important; /*Do not change font color on over*/
+  border-top:   1px solid #5B7A8F; 
+  border-left:  1px solid #5B7A8F;
+  border-right: 1px solid #FFFFFF;  
+  border-bottom: 2px solid #5B7A8F;
+}            
+
+ /* Disabled tabs state*/
+.tabButtonTopSelectedDisabled,
+.tabButtonTopDisabled {    
+    background-color:  #D6D6D6 !important;    
+    color: #FFFFFF; 
+    border-top: 1px solid #D6D6D6; 
+  	border-left: 1px solid #D6D6D6;
+  	border-right: 1px solid #FFFFFF;  
+  	bborder-bottom: 2px solid #D6D6D6;
+}
+
+ /* selected tabs state*/
+.tabButtonTopDown,
+.tabButtonTopDownOver,
+.tabButtonTopSelected,
+.tabButtonTopSelectedOver,
+.tabButtonTopSelectedDown,
+.tabButtonTopSelectedFocused,
+.tabButtonTopSelectedFocusedOver,
+.tabButtonTopSelectedFocusedDown,
+.tabButtonTopFocused,
+.tabButtonTopFocusedOver,
+.tabButtonTopFocusedDown {	
+	
+	font-family:Arial,Verdana,sans-serif; font-size:14px;
+    font-weight: bold !important;
+    background-color: #5B7A8F !important;   
+    color: #FFF2C6; 
+    border-top: 1px solid #5B7A8F; 
+  	border-left: 1px solid #5B7A8F;
+  	border-right: 1px solid #FFFFFF;  
+  	border-bottom: 2px solid #FFF2C6;   
+    background-image: none !important;
+
+}
