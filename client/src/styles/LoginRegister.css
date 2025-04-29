@@ -1,0 +1,96 @@
+/* General styles for login and registration page */
+.login, .register {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  }
+  
+  .login {
+    justify-content: flex-end; /* Align everything to the right */
+    padding-right: 10%; /* Adds some space on the right side */
+  }
+  
+  .register {
+    justify-content: center; /* Center the content for registration page */
+    padding-right: 10%; /* No padding for register page */
+  }
+  
+  .lottie {
+    width: 500px;
+    height: 450px;
+  }
+  
+
+  .inputField {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.784);
+    color: rgba(255, 255, 255, 0.568) !important;
+  }
+  
+  .inputField:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid rgba(48, 21, 21, 0.784) !important;
+  }
+  /* Shared input styles for both login and register 
+  input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.784);
+    color: rgba(255, 255, 255, 0.568) !important;
+  }
+  
+  input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid rgba(48, 21, 21, 0.784) !important;
+  }
+ 
+  
+  label,
+  a {
+    color: rgba(255, 255, 255, 0.536) !important;
+  }
+       */
+  
+  /* Header styles for both login and register */
+  h1 {
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+  }
+  
+  /* Link styling */
+  .linkTo {
+    color: rgba(255, 255, 255, 0.536) !important;
+    text-decoration: none;
+  }
+  
+  .linkTo:hover {
+    color: rgba(0, 255, 55, 0.92) !important;
+    text-decoration: underline; /* Adds an underline on hover for the link */
+  }
+  
+  /* Login and Register button styles */
+  button {
+    text-transform: none;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.568) !important;
+    background-color: transparent !important;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+
+  input:-webkit-autofill:focus,
+input:-webkit-autofill:hover {
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.568) !important;
+  background-color: transparent !important;
+}
